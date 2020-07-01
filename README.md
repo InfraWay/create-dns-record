@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: infraway/create-dns-record@v1
+      - uses: infraway/create-dns-record@v1.7
         with:
           type: "A"
           name: "review.example.com"
